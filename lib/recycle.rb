@@ -30,12 +30,20 @@ end
 
 #3. Define a method called `all_keys` that takes a hash as an argument.
 def all_keys(first_recycle_bin)
-  first_recycle_bin.each_key
+  first_recycle_bin.each_key do |x|
+    puts x 
+  end 
 end 
 #This method should print out each key in the hash. 
 #You should use the `each_key` method to iterate over your hash and print out each key.
 
 #4. Define a method called `all_data` that takes a hash as an argument.
+
+def all_data(first_recycle_bin)
+  first_recycle_bin.each_value do |y|
+    puts y 
+  end
+end 
 #This method should print out each value in the hash.
 #You should use the `each_value` method to iterate over your hash and print out each value.
 
