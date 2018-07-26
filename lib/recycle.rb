@@ -51,5 +51,7 @@ end
 def key_and_data(first_recycle_bin)
   first_recycle_bin.each do |key, value|
     puts "The #{key} is #{value}"
+  end 
+end 
 #This method should print out each key and value in the hash in a sentence like this: `The #{key} is #{value}`
 #You should use the `each` method to iterate over your hash to print out that sentence
