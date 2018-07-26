@@ -30,7 +30,7 @@ end
 
 #3. Define a method called `all_keys` that takes a hash as an argument.
 def all_keys(first_recycle_bin)
-  
+  first_recycle_bin.each_key
 end 
 #This method should print out each key in the hash. 
 #You should use the `each_key` method to iterate over your hash and print out each key.
