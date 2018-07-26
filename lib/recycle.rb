@@ -17,7 +17,7 @@ first_recycle_bin =  {
 
 #1. Define a method `address`, that takes a hash as an argument.
 def address(first_recycle_bin)
-  
+  first_recycle_bins
 end
 #This method should return the value of the address key in the hash.
 
